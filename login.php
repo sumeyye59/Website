@@ -9,12 +9,16 @@ ob_start();
 if(isset($_SESSION["login"]))
 	header("Location:admin.php");
 
+
 ?>
+
+
+
 
 <div class="jumbotron mb-0">
 <br><br>
 	<div id="loginSayfasi" class="container shadow-lg col-md-4 text-black">
-		<form action="kontrol.php" method="POST">
+		<form action="giris.php" method="POST">
 			<br>
 			<div class="form-group">
 				<label for="exampleInputEmail1">Email Adresi:</label>
@@ -23,7 +27,7 @@ if(isset($_SESSION["login"]))
 
 			<div class="form-group mb-3">
 				<label for="exampleInputPassword1">Şifre:</label>
-				<input type="password" name="sifre" class="form-control" id="exampleInputPassword1" placeholder="g191210037" required="">
+				<input  name="sifre" type="password" class="form-control" id="exampleInputPassword1" placeholder="111" required="">
 			</div>
 
 			<button type="submit" class="btn btn-primary">Gönder</button>

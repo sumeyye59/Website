@@ -5,7 +5,7 @@ session_start();
 ob_start();
 
 session_destroy();
-header("Refresh: 3; url=hakkinda.php");
+header("Refresh: 3; url=index.php");
 
 ob_end_flush();
 ?>

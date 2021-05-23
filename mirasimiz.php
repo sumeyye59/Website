@@ -17,7 +17,7 @@
 			<br>
 
 			<h1 class="display-4 mb-4 text-center baslik">Rahime Sultan Camii</h1>
-			<img class="rounded-circle" src="camii.jpeg" height="450" width="600" alt=""/>
+			<img class="rounded-circle" src="img/camii.jpeg" height="450" width="600" alt=""/>
 			<h5> 1892 yılında Sapanca Uzunkum’da Abdülmecit’in dördüncü karısı Peruste Rahime Sultan tarafından 
 			Rahime Sultan Cami, yığma taş ve tuğla mimari tekniği kullanılarak inşa edilmiştir.</h5>
 			<h5> İç mimarisi oylama işçiliği ile süslü cami kendine özgü yapısını koruyan ender camiler arasında yerini almaktadır. 
@@ -28,7 +28,7 @@
 
 			<h1 class="display-4 mb-4 text-center baslik">Justinianus Köprüsü(Beşköprü)</h1>
 
-			<img class="rounded-circle" src="justinianus.jpg" height="400" width="650" alt=""/>
+			<img class="rounded-circle" src="img/justinianus.jpg" height="400" width="650" alt=""/>
 			<h5>Bir Erken Bizans Dönemi yapısı olan Beşköprü, Anadolu’nun en göz alıcı anıtsal yapısı olma özelliğini taşımaktadır. </h5>
 			<h5>  Bizans İmparatoru Justinianus tarafından inşa ettirilen yapı, MS 558-560 yıllarında yapılmış olup
 			günümüze kadar sağlam bir şekilde gelmeyi başarmıştır.</h5>

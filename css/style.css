@@ -1,0 +1,265 @@
+main > .container {
+  padding: 60px 15px 0;
+}
+
+nav {
+  background-color: #c99191 ;
+}
+
+.btn{
+	color:#fff;
+}
+.footer {
+  background-color: #c99191;
+  color: white !important;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.wrapper {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  border: 8px solid #fff;
+  border-radius: 8px;
+  
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+.switch { 
+  display: none; 
+}
+
+.bottom {
+  background: #fff;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.label {
+  background: #00bcd4;
+  height: 15px;
+  
+  width: 15px;
+  border-radius: 4px;
+  
+  text-indent: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  
+  bottom: 5px;
+  z-index: 99;
+
+  transition: all 0.25s;
+}
+.label:nth-of-type(1) { 
+  left: 0px; 
+}
+
+.label:nth-of-type(2) { 
+  left: 30px; 
+}
+
+.label:nth-of-type(3) { 
+  left: 60px;
+}
+
+.label:nth-of-type(4) { 
+  left: 90px; 
+}
+
+.label:nth-of-type(5) { 
+  left: 120px; 
+}
+.content {
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+}
+
+.switch:not(:checked) + .label + .content {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.switch:checked + .label {
+  background: #039baf;
+}
+
+.lblerr {
+
+  display: none;
+  color:#c9a6ff;
+  font-weight: bold;
+}
+
+#cinsiyet {
+  display:none;
+}
+
+#formDiv {
+  margin:auto; 
+  background-color: #c99191 !important;
+  border: 1px solid black;
+}
+
+#formBilgi {
+  margin:auto; 
+  background-color:#c99191 !important;
+  border: 1px solid black;
+}
+
+#loginSayfasi {
+  margin:auto; 
+  background-color: #c99191 !important;
+  border: 1px solid black;
+}
+
+#adminSayfasi {
+  margin:auto; 
+  background-color: #c99191 !important;
+  border: 1px solid black;
+}
+
+.marginAuto {
+  margin:auto;
+}
+
+#hakkinda
+{
+  height: 100% !important;
+  border-radius: 0% !important;
+  margin-bottom:0 !important;
+
+}
+#ozgecmis
+{
+  height: 100% !important;
+  border-radius: 0% !important;
+  margin-bottom:0 !important;
+
+}
+.baslik {
+  font-size: 40px;
+  color:#073a60 !important;
+  font-weight: bold;
+}
+
+.anasayfaJumbotron{
+  background: url("../img/uzay.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+  height: 100% !important;
+  border-radius: 0% !important;
+  margin-bottom:0 !important;
+  opacity: 1;
+}
+
+.mirasimizJumbotron{
+  background: url("../img/sapanca.jpg") no-repeat center center fixed;
+  background-size: cover !important;
+  height: 100% !important;
+  border-radius: 0% !important;
+  margin-bottom:0 !important;
+  opacity: 1;
+}
+
+.mirasimizJumbotronbilgi{
+  background-size: cover !important;
+  height: 100% !important;
+  border-radius: 0% !important;
+  margin-bottom:0 !important;
+  padding:0px !important;
+}
+
+.sehrimSlider{
+  margin-bottom: 0px !important;
+}
+
+.sehrimSlider
+{
+  background-size: cover !important;
+  height: 100% !important;
+  margin-bottom:0px !important;
+  padding:20px !important;
+}
+
+h1.baslik {
+  color:#073a60;
+  margin-bottom:2rem !important;
+  font-weight: bold;
+}
+
+div > a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+section > .baslik {
+  color:#073a60;
+  margin-bottom:2rem !important;
+}
+
+table,tr,th,td{border:none}
+ .table{ width: 100%; display: table;}
+ .table tbody>tr:nth-child(odd)>th,
+ .table > tbody > tr:nth-child(odd) > td{background: #f9f9f9}
+ .table tbody > tr > td,
+ .table tbody > tr > th{padding: 10px 10px 10px 20px;}
+ .table tbody > tr > td{border-top:1px solid #ddd;}
+ th{text-align:left; color: #688a7e;    font-weight: bold;}
+ .table > tbody > tr:hover > td, .table > tbody > tr:hover > th{background: #f5f5f5}
+
+ /*ekranın hangi boyutlarında devreye gireceğini belirliyoruz*/
+ @media 
+ only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+    /*tablomuzun thead gizliyoruz*/
+    .table thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table tr { border: 1px solid #ccc; }
+
+    .table td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%!important; 
+    }
+    /*Burada td:before data-title ların css'i oluyor*/
+    .table td:before { 
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        font-weight:bold;
+    }
+   /*data-title valulerini alarak sütünümuza eklemiş oluyoruz*/
+  .table td:before { content: attr(data-title);
+ }
+}
